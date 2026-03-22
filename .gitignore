@@ -1,0 +1,78 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# ===============================
+# Virtual environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+.notebooks/
+
+# ===============================
+# Data (never commit raw data)
+# ===============================
+data/raw/
+data/interim/
+data/outputs/
+data/processed/
+
+# ===============================
+# Generated reports & figures
+# (keep markdown, ignore heavy artifacts)
+# ===============================
+reports/**/figures/*.png
+reports/**/figures/*.jpg
+reports/**/figures/*.svg
+reports/**/figures/*.pdf
+
+# If you later generate HTML/PDF reports
+reports/**/*.html
+reports/**/*.pdf
+
+# ===============================
+# Logs & caches
+# ===============================
+*.log
+.cache/
+.pytest_cache/
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDEs & editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Build / packaging
+# ===============================
+build/
+dist/
+
+# ===============================
+# Notebooks
+# ===============================
+notebooks/00_sandbox.ipynb
+notebooks/Untitled-1.ipynb
